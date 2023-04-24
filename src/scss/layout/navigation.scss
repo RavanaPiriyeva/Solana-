@@ -1,0 +1,24 @@
+.heder_top {
+  background: linear-gradient(260.33deg, #0047ff -13.37%, #00bcd4 109.53%);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  padding: 5px;
+  text-align: center;
+  text-transform: uppercase;
+}
+.nav {
+  padding: 20px 0;
+  background: rgba(0, 0, 0, 0.6);
+  li {
+    padding-left: 32px;
+    a {
+      font-weight: 400;
+      font-family: heli;
+      color: #848895;
+      display: flex;
+      align-items: center;
+      font-size: 17px;
+    }
+  }
+}
