@@ -1,3 +1,9 @@
+header {
+  position: fixed;
+  width: 100%;
+  z-index: 5;
+  top: 0;
+}
 .heder_top {
   background: linear-gradient(260.33deg, #0047ff -13.37%, #00bcd4 109.53%);
   font-family: "Roboto", sans-serif;
@@ -12,6 +18,9 @@
   background: rgba(0, 0, 0, 0.6);
   li {
     padding-left: 32px;
+    @media screen and (max-width: 992px) {
+      padding-left: 5px;
+    }
     a {
       font-weight: 400;
       font-family: heli;
@@ -20,5 +29,9 @@
       align-items: center;
       font-size: 17px;
     }
+  }
+  .mobil_menu {
+    text-align: end;
+    font-size: 20px;
   }
 }

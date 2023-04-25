@@ -1,0 +1,26 @@
+@mixin green_btn {
+    @extend %btn;
+    color: black;
+    background-color: $green;
+}
+@mixin white_btn {
+    @extend %btn;
+    color: white;
+    border: 2px solid white;
+}
+@mixin title {
+    font-family: heli;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: white;
+}
+@mixin title_text {
+    font-family: heli;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: $gray;
+}

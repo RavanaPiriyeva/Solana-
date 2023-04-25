@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang="en">
+<html3 lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -8,11 +9,15 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/main.css" />
+      rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./src/css/style.css" />
     <title>Document</title>
   </head>
+
   <body>
     <!--Header start-->
     <header>
@@ -22,36 +27,326 @@
       <nav class="nav">
         <div class="container">
           <div class="row align-items-center justify-content-between">
-            <div class="col-2 nav_logo">
+            <div class="col-6 col-md-2 nav_logo">
               <img src="./src/assets/img/logo.svg" alt="logo" />
             </div>
-            <div class="col-6 nav_list">
+            <div class="col-6 d-none d-md-block nav_list">
               <ul class="d-flex justify-content-end align-items-center">
                 <li>
-                  <a href="#"
-                    >Learn <img src="./src/assets/img/down.svg" alt="down"
-                  /></a>
+                  <a href="#">Learn <img src="./src/assets/img/down.svg" alt="down" /></a>
                 </li>
                 <li>
-                  <a href="#"
-                    >Build <img src="./src/assets/img/down.svg" alt="down"
-                  /></a>
+                  <a href="./build.html">Build <img src="./src/assets/img/down.svg" alt="down" /></a>
                 </li>
                 <li>
-                  <a href="#"
-                    >Network <img src="./src/assets/img/down.svg" alt="down"
-                  /></a>
+                  <a href="#">Network <img src="./src/assets/img/down.svg" alt="down" /></a>
                 </li>
                 <li>
-                  <a href="#"
-                    >Community <img src="./src/assets/img/down.svg" alt="down"
-                  /></a>
+                  <a href="#">Community <img src="./src/assets/img/down.svg" alt="down" /></a>
                 </li>
               </ul>
+            </div>
+            <div class="col-6 d-block d-md-none mobil_menu">
+              <i class="fa-solid fa-bars"></i>
             </div>
           </div>
         </div>
       </nav>
     </header>
+    <!--Main start-->
+    <main>
+      <!--Hero start-->
+      <section class="hero" id="hero">
+        <div class="hero_bg_img1 d-none d-lg-block">
+          <img src="./src/assets/img/heroimg.svg" alt="heroimg">
+        </div>
+        <div class="hero_bg_img2  d-none d-lg-block">
+          <img src="./src/assets/img/heroimg2.svg" alt="heroimg">
+
+        </div>
+        <div class="container-fluid container-sm">
+          <div class="hero_inner">
+            <div class="hero_inner_title">
+              <h2>Powerful for developers.</h2>
+              <h2>Fast for everyone.</h2>
+            </div>
+            <p> Bring blockchain to the people. Solana supports experiences for power users, new consumers, and everyone
+              in
+              between.</p>
+            <div class="hero_inner_btn">
+              <a href="#" class="start_btn">Start building</a>
+              <a href="#" class="read_btn">Read docs</a>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <!--company start-->
+      <section class="company">
+        <div class="container-fluid container-sm">
+          <h4>Powering tools and integrations from companies all around the world</h4>
+          <div class="row align-items-center justify-content-center">
+            <div class=" company_item">
+              <img src="./src/assets/img/logo1.svg" alt="company">
+            </div>
+
+            <div class=" company_item">
+              <img src="./src/assets/img/logo2.svg" alt="company">
+            </div>
+
+            <div class=" company_item">
+              <img src="./src/assets/img/logo3.svg" alt="company">
+            </div>
+
+            <div class=" company_item">
+              <img src="./src/assets/img/logo4.svg" alt="company">
+            </div>
+
+            <div class=" company_item">
+              <img src="./src/assets/img/logo5.svg" alt="company">
+            </div>
+
+            <div class=" company_item">
+              <img src="./src/assets/img/logo6.svg" alt="company">
+            </div>
+
+            <div class=" company_item">
+              <img src="./src/assets/img/logo7.svg" alt="company">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--Join-->
+      <section class="join">
+        <div class="container">
+          <div class="row ">
+            <div class="col-lg-6 col-12 join_title">
+              <h4>Join a community <br>of millions</h4>
+            </div>
+            <div class="col-lg-6 col-12 join_count">
+              <div class="join_count_item">
+                <h2>11.5M+</h2>
+                <h4>Active accounts</h4>
+              </div>
+              <div class="join_count_item">
+                <h2>21.9M</h2>
+                <h4>NFTs minted</h4>
+              </div>
+              <div class="join_count_item">
+                <h2>$0.00025</h2>
+                <h4>Average cost per transaction</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--adaption-->
+      <section class="adaption">
+        <div class="container">
+          <div class="row">
+            <div class="adaption_title col-xl-4 col-12">
+              <h4>Made for<br>mass adoption</h4>
+              <h6>Live data</h6>
+            </div>
+            <div class="row col-12 col-xl-8">
+              <div class="adaption_cards col-lg-6 col-12">
+                <div class="adaption_cards_item">
+                  <h3>Fast</h3>
+                  <p>Don’t keep your users waiting. Solana has block times of 400 milliseconds — and as hardware gets
+                    faster, so will the network.</p>
+                  <h4>3,969</h4>
+                  <h5>Transactions per second</h5>
+                </div>
+
+                <div class="adaption_cards_item purple">
+                  <h3>Scalable</h3>
+                  <p>Get big, quick. Solana is made to handle thousands of transactions per second, and fees for both
+                    developers and users remain less than $0.01.</p>
+                  <h4>163,077,581,394</h4>
+                  <h5>Total transactions</h5>
+                </div>
+              </div>
+
+              <div class="adaption_cards col-lg-6 col-12">
+                <div class="adaption_cards_item yellow">
+                  <h3>Decentralized</h3>
+                  <p>The Solana network is validated by thousands of nodes that operate independently of each other,
+                    ensuring your data remains secure and censorship resistant.</p>
+                  <h4>1,675</h4>
+                  <h5>Validator nodes</h5>
+                </div>
+
+                <div class="adaption_cards_item green">
+                  <h3>Energy Efficient</h3>
+                  <p>Solana’s proof of stake network and other innovations minimize its impact on the environment. Each
+                    Solana transaction uses about the same energy as a few Google searches.</p>
+                  <h4>0%</h4>
+                  <h5>Net carbon impact</h5>
+                </div>
+              </div>
+            </div>
+
+
+          </div>
+
+        </div>
+      </section>
+
+      <!--build-->
+      <section class="build">
+        <div class="container">
+          <div class="row build_title align-items-center">
+            <div class=" col-xl-6 col-12 build_title_left">
+              <h4>Build for growth.</h4>
+            </div>
+            <div class=" col-xl-6 col-12 build_title_right">
+              <ul class="d-flex justify-content-end-xl">
+                <li><a href="#">NFTs</a></li>
+                <li><a href="#">DeFi</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Gaming</a></li>
+                <li><a href="#">DAOs</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="row build_img">
+            <div class="col-lg-6 col-12 build_img_left">
+              <img src="./src/assets/img/build.svg" alt="build">
+            </div>
+            <div class="col-lg-6 col-12 build_img_right">
+              <img src="./src/assets/img/anybody.svg" alt="build">
+              <p>It’s time to bridge the digital and physical. Anybodies helps established brands like Toys’R’Us connect
+                real-life places and products with NFTs.</p>
+              <div class="d-flex">
+                <a href="#">Learn more about</a>
+                <a href="#">NFTs</a>
+                <a href="#">on Solana</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="row build_logo align-items-center">
+            <div class="col-md-3 col-6 build_logo_item">
+              <img src="./src/assets/img/buildl1.svg" alt="build">
+            </div>
+            <div class="col-md-3 col-6 build_logo_item">
+              <img src="./src/assets/img/buildl2.svg" alt="build">
+            </div>
+            <div class="col-md-3 col-6 build_logo_item">
+              <img src="./src/assets/img/buildl3.svg" alt="build">
+            </div>
+            <div class="col-md-3 col-6 build_logo_item">
+              <img src="./src/assets/img/buildl4.svg" alt="build">
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--commnuty-->
+      <section class="commnuty">
+        <div class="container">
+          <div class="commnuty_title">
+            <h4>Join a thriving community.</h4>
+          </div>
+        </div>
+        <div class="row commnuty_img">
+          <div class="col-lg-2 col-4 commnuty_img_item img_text">
+
+            <div class="commnuty_img_item_inner ">
+              <img src="./src/assets/img/commnty1.svg" alt="commnty">
+            </div>
+
+            <div class="commnuty_img_item_inner text">
+              <h4>48,000</h4>
+              <h6>Developers building during Solana Hackathons</h6>
+            </div>
+          </div>
+          <div class="col-lg-4 col-8 commnuty_img_item">
+            <div class="commnuty_img_item_inner">
+              <img src="./src/assets/img/commnty.svg" alt="commnty">
+            </div>
+          </div>
+          <div class="col-lg-2 col-4  commnuty_img_item img_text">
+
+            <div class="commnuty_img_item_inner ">
+              <img src="./src/assets/img/commnty1.svg" alt="commnty">
+            </div>
+
+            <div class="commnuty_img_item_inner text">
+              <h4>48,000</h4>
+              <h6>Developers building during Solana Hackathons</h6>
+            </div>
+          </div>
+          <div class="col-lg-2 col-4 commnuty_img_item">
+            <div class="commnuty_img_item_inner">
+              <img src="./src/assets/img/commnty2.svg" alt="commnty">
+
+            </div>
+          </div>
+          <div class="col-lg-2 col-4 commnuty_img_item img_text">
+
+            <div class="commnuty_img_item_inner ">
+              <img src="./src/assets/img/commnty1.svg" alt="commnty">
+            </div>
+
+            <div class="commnuty_img_item_inner text">
+              <h4>48,000</h4>
+              <h6>Developers building during Solana Hackathons</h6>
+            </div>
+          </div>
+        </div>
+        <div class="container-sm container-fluid">
+          <div class="commnuty_text">
+            <h4>It's time to join the thousands of creators, artists, and developers using Solana.</h4>
+            <a href="#">Start building</a>
+          </div>
+        </div>
+
+
+      </section>
+    </main>
+    <!--fotter-->
+    <footer>
+      <div class="container">
+        <div class="row justify-content-between">
+          <div class="col-lg-4 col-12">
+            <img src="./src/assets/img/footerlogo.svg" alt="footer">
+            <p>Managed by Solana Foundation</p>
+            <div class="img">
+              <img src="./src/assets/img/footer1.svg" alt="footer">
+              <img src="./src/assets/img/footer2.svg" alt="footer">
+              <img src="./src/assets/img/footer3.svg" alt="footer">
+              <img src="./src/assets/img/footer5.svg" alt="footer">
+              <img src="./src/assets/img/footer6.svg" alt="footer">
+            </div>
+            <h3>© 2023 Solana Foundation. All rights reserved.</h3>
+          </div>
+          <div class="col-lg-6 col-12 row justify-content-around-lg justify-content-between">
+            <div class="col-2 footer_list">
+              <h2>Solana</h2>
+              <ul>
+                <li><a href="#">Grants</a></li>
+                <li><a href="#">Break Solana</a></li>
+                <li><a href="#">Media Kit</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Disclaimer</a></li>
+              </ul>
+            </div>
+            <div class="col-3 footer_list">
+              <h2>Get Connected</h2>
+              <ul>
+                <li><a href="#">Ecosystem</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Newsletter</a></li>
+              </ul>
+            </div>
+            <div class="col-1 footer_list">
+             <a href="#" class="d-flex align-items-center"><img src="./src/assets/img/earth.svg" alt="earth"> EN</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
-</html>
+
+</html3

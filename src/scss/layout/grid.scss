@@ -15,6 +15,9 @@
 .align-items-center {
     align-items: center;
 }
+.align-items-end {
+    align-items: flex-end;
+}
 
 .justify-content-center {
     justify-content: center;
@@ -178,7 +181,7 @@
 /* phone responsive - sm */
 @media only screen and (min-width: 576px) {
     .container-sm {
-        width: 80%;
+        width: 70%;
         margin: 0 auto;
     }
 
@@ -408,6 +411,9 @@
     .justify-content-end-lg {
         justify-content: end;
     }
+    .justify-content-around-lg {
+        justify-content: space-around;
+    }
 }
 
 @media only screen and (min-width: 1200px) {
@@ -440,7 +446,7 @@
         width: calc(100% / 12 * 5);
     }
 
-    .col-lg-6 {
+    .col-xl-6 {
         width: calc(100% / 2);
     }
 
